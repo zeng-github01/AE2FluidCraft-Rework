@@ -5,13 +5,12 @@ import appeng.core.sync.GuiWrapper;
 import com.glodblock.github.FluidCraft;
 import com.glodblock.github.inventory.GuiType;
 import com.glodblock.github.inventory.InventoryHandler;
-import com.glodblock.github.util.Util;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 
 public class AEGuiBridgeHandler implements GuiWrapper.IExternalGui {
-    public static final AEGuiBridgeHandler WIRELESS_FLUID_PATTERN = new AEGuiBridgeHandler(GuiType.WIRELESS_FLUID_PATTERN_TERMINAL, "wireless_fluid_pattern_terminal");
+    public static final AEGuiBridgeHandler WIRELESS_FLUID_PATTERN_TERMINAL = new AEGuiBridgeHandler(GuiType.WIRELESS_FLUID_PATTERN_TERMINAL, "wireless_fluid_pattern_terminal");
     public static final AEGuiBridgeHandler FLUID_PATTERN_TERMINAL = new AEGuiBridgeHandler(GuiType.FLUID_PATTERN_TERMINAL, "fluid_pattern_terminal");
     public static final AEGuiBridgeHandler FLUID_EXTENDED_PATTERN_TERMINAL = new AEGuiBridgeHandler(GuiType.FLUID_EXTENDED_PATTERN_TERMINAL, "fluid_extended_pattern_terminal");
 
